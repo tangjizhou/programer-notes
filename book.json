@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "expandable-chapters",
+    "plantuml",
+    "mermaid-gb3"
+  ]
+}
+
