@@ -8,4 +8,4 @@ VOLUME $BOOKDIR
 EXPOSE 4000
 WORKDIR $BOOKDIR
 RUN gitbook install
-ENTRYPOINT["gitbook", "serve"]
+CMD ["gitbook", "serve"]
