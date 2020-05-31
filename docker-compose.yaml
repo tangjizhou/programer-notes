@@ -6,3 +6,10 @@ services:
     - 4000:4000
     volumes:
     - "/home/tangjizhou/programer-notes:/gitbook"
+    deploy:
+      replicas: 2
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: always
