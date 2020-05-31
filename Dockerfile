@@ -1,5 +1,6 @@
 FROM node:10.16.3-alpine
 MAINTAINER tangjizhouchn@foxmail.com
+RUN npm config set unsafe-perm true
 RUN npm install gitbook-cli -g
 ARG GITBOOK_VERSION=3.2.3
 RUN gitbook fetch $GITBOOK_VERSION
