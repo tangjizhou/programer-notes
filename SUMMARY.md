@@ -21,6 +21,7 @@
     - [IO]()
     - [并发]()
     - [JVM]()
+- [设计模式](design-patterns/design-patterns.md)
 - [中间件]()
     - [redis]()
     - [kafka]()
