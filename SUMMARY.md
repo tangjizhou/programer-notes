@@ -9,6 +9,7 @@
         - [UDP协议]()
         - [FTP协议](computer-basic/network/protocol/ftp/ftp-protocol.md)
         - [TELNET协议](computer-basic/network/protocol/telnet/telnet-protocol.md)
+        - [HTTP协议](computer-basic/network/protocol/http/http-protocol.md)
     - [文件]()
 - [数据结构]()
     - [数组]()
