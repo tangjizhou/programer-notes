@@ -5,7 +5,7 @@
 **万维网WWW**（`World Wide Web`）并不是某种特殊对网络，而是大规模对联机信息储藏所，也称Web。
 万维网用统一资源定位符URL（`Uniform Resource Locator`）标记万维网上对各种文档。
 
-![www-topology.png](www-topology.png)
+![万维网的拓扑结构](www-topology.png)
 
 如上图，万维网是分布式结构，每个站点都提供了文档，而一个节点通过URL来链接到另一个节点。
 万维网是一个分布式对超媒体（`hypermedia`）系统，它是对超文本（`hypertext`）系统对补充。
@@ -28,7 +28,7 @@
 ## HTTP协议
 HTTP协议的号默认端口号为`80`，是一个使用`TCP`作为传输成协议的面向事务（`transaction-oriented`）的应用层协议。它是实现可靠的交换文件的基础（文本、声音、图像等）。
 
- ![http-working-flow](http-working-flow.png)
+ ![URL请求响应流程](http-working-flow.png)
 
 ### HTTP协议的工作方式
 **HTTP协议**规定客户与服务器之间的交互使用由`ASCII码串`构成的一个请求和一个响应组成。其报文通常由`TCP`链接传送。
@@ -48,6 +48,6 @@ HTTP协议的号默认端口号为`80`，是一个使用`TCP`作为传输成协�
 1. **HTTP协议**使用了`TCP`做为传输层连接，但`HTTP`本身是无状态的。即用户的相同访问返回的结果相同，
 服务器无法记住此用户访问过此页面，正因为如此，服务器更容易支持大量并发请求。
 2. `HTTP`在建立`TCP`连接三次握手中的第三次握手就把请求报文发送给服务器。
-![http-timing.png](http-timing.png)
+![HTTP的响应时间](http-timing.png)
 
 
