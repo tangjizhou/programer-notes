@@ -1,0 +1,5 @@
+:80 {
+    file_server
+    templates
+    root * /usr/share/nginx/html
+}
